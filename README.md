@@ -1,10 +1,11 @@
 # Proyecto de Inteligencia de Negocios
 
 Este repositorio contiene el código y los recursos relacionados con un proyecto de inteligencia de negocios diseñado para analizar y visualizar datos empresariales.
+Datos relacionados con una empresa de turimos que busca propulsar este sector finaciero. Todo lo anterior buscando clasificar reseñas con modelos de aprendizaje supervisado
 
 ## Descripción del Proyecto
 
-El objetivo de este proyecto es utilizar técnicas de inteligencia de negocios para extraer información valiosa de los datos empresariales, proporcionando insights que puedan ser utilizados para la toma de decisiones estratégicas.
+El objetivo de este proyecto es utilizar técnicas de inteligencia de negocios para extraer información valiosa de los datos empresariales, proporcionando insights que puedan ser utilizados para la toma de decisiones estratégicas. Basandonos en los resultados de diferentes modelos de aprendizaje supervisado que nos pueden dar información muy relevante relacionada con el negocio y la empresa.
 
 ## Archivos
 
@@ -24,4 +25,9 @@ El objetivo de este proyecto es utilizar técnicas de inteligencia de negocios p
 3. Instala las librerías necesarias
 4. Sigue las instrucciones en el notebook para ejecutar el análisis de datos.
 5. Consulta el informe y la presentación para obtener información detallada sobre los resultados obtenidos.
+
+
+##Integrantes
+1. Sebastián Alberto Umaña Peinado
+2. Santiago Rodriguez Cruz
 
