@@ -27,7 +27,7 @@ El objetivo de este proyecto es utilizar técnicas de inteligencia de negocios p
 5. Consulta el informe y la presentación para obtener información detallada sobre los resultados obtenidos.
 
 
-##Integrantes
+## Integrantes
 1. Sebastián Alberto Umaña Peinado
 2. Santiago Rodriguez Cruz
 
