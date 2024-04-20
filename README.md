@@ -18,13 +18,20 @@ El objetivo de este proyecto es utilizar técnicas de inteligencia de negocios p
 - Jupyter Notebook
 - Bibliotecas de análisis de datos como Pandas, NumPy, Matplotlib, entre otras que se encuentran en el notebook.
 
-## Instrucciones de Uso
+## Instrucciones de uso del Notebook.
 
 1. Clona este repositorio en tu máquina local.
 2. Abre el archivo `proy1_etapa1_g20.ipynb` utilizando Jupyter Notebook.
 3. Instala las librerías necesarias
 4. Sigue las instrucciones en el notebook para ejecutar el análisis de datos.
 5. Consulta el informe y la presentación para obtener información detallada sobre los resultados obtenidos.
+
+## Instrucciones de uso de la página Web
+1. Clona este repositorio en tu máquina local.
+2. Instala la librería de Flask, inflect, spacy, nltk y joblib.
+3. Ejecuta el archivo `main.py`
+4. En el terminal se generará un URL, copia este mismo en tu navegador de preferencia.
+5. En este punto puedes utilizar las funciones de la aplicación.
 
 
 ## Integrantes
