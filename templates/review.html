@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseña</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='img/seal.png') }}" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/review">Reseña</a></li>
+                <li><a href="/csv">Cargar Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Describe la reseña a la cual quiere predecir su calificación</h1>
+        <form id="reviewForm" onsubmit="predictText(event)">
+            <textarea id="texto" rows="4" cols="50" placeholder="Ingresa el texto para predecir" required></textarea>
+            <button>Predecir Texto</button>
+        </form>
+    </div>
+    <div id="predictionResult">
+        <table id="reviewTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Reseña</th>
+                    <th>Calificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán las filas de la tabla dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

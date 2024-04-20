@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='img/seal.png') }}" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/review">Reseña</a></li>
+                <li><a href="/csv">Cargar Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cargue el archivo de reseñas con formato CSV</h2>
+        <input type="file" id="archivo" accept=".csv">
+        <button onclick="predictCSV()">Cargar CSV</button>
+        <p id="resultado_csv"></p>
+
+        <table id="reviews">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Reseña</th>
+                    <th>Calificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán las filas dinámicamente -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

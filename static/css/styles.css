@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Color de fondo */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #5da0fc; /* Color de fondo del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para la barra de navegación */
+header {
+    background-color: #fff; /* Azul claro como el agua */;
+    padding: 5px 0; /* Espaciado interno superior e inferior */
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100px; /* Ajusta el ancho de la imagen según sea necesario */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+/* Estilos para la navegación */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2980b9; /* Azul */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #27ae60; /* Verde al pasar el mouse */
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #fff;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #5da0fc; /* Azul claro como el agua */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+button:hover {
+    background-color: #2ecc71; /* Verde claro similar a COTELCO */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    background-color: #5da0fc; /* Color azul */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el contenido que se desborde */
+}
+
+/* Estilo para las celdas de la tabla */
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Estilo para las filas impares de la tabla */
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+/* Estilo para las filas pares de la tabla */
+table tr:nth-child(even) {
+    background-color: #ededed;
+}
+
+
+/* Estilo para el encabezado de la tabla */
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0056b3;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-container {
+    display: flex; /* Utiliza flexbox para alinear horizontalmente */
+    justify-content: flex-start; /* Centra las imágenes horizontalmente */
+    margin-top: 20px; /* Añade un margen superior para separar del h2 */
+}
+
+.image-container img {
+    width: 500px; /* Ajusta el ancho de las imágenes según sea necesario */
+    margin: 0 10px; /* Espacio entre las imágenes */
+}
+
+/* Estilos específicos para los mensajes de error */
+.error-message {
+    color: red;
+}
